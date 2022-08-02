@@ -29,7 +29,7 @@ function player_update()
 
 function new_image(get_image)
 {
-    fabric.Image.fromURL("get_image", function(Img) 
+    fabric.Image.fromURL(get_image, function(Img) 
     {
         block_image_object = Img;
 
